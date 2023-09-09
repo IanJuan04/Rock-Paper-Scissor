@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="game" class="game">
+      <section class="score-container">
+        <div class="score-box">
+          <div class="user-score-container">
+            <h1>User</h1>
+            <p id="user-score-count">0</p>
+          </div>
+          <div class="draw-score-container">
+            <h1>Draw</h1>
+            <p id="draw-score-count">0</p>
+          </div>
+          <div class="computer-score-container">
+            <h1>Computer</h1>
+            <p id="computer-score-count">0</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="battle-container">
+        <div class="battle-box">
+          <div id="user-battle-weapon">
+            <i class="fa-solid fa-question"></i>
+          </div>
+          <div id="computer-battle-weapon">
+            <i class="fa-solid fa-question"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="weapons-container">
+        <div class="weapon-box">
+          <button id="rock-btn">
+            <i class="fa-solid fa-hand-back-fist">Rock</i>
+          </button>
+
+          <button id="paper-btn"><i class="fa-solid fa-hand">Paper</i></button>
+
+          <button id="scissor-btn">
+            <i class="fa-solid fa-hand-scissors">Scissor</i>
+          </button>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

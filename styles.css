@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.game {
+  display: grid;
+  text-align: center;
+  width: 50%;
+  height: 100dvh;
+  margin: 0 auto;
+}
+
+.score-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2em;
+  /* gap: 2em; */
+  border: solid;
+  border-radius: 20px;
+  padding: 20px;
+  background: url(Sprinkle.svg);
+}
+
+.score-box h1 {
+  font-size: 32px;
+}
+
+.score-box p {
+  font-size: 50px;
+}
+
+.battle-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+  border: solid;
+  border-radius: 20px;
+  padding: 20px;
+  background: url(Sprinkle.svg);
+}
+
+.battle-box div {
+  font-size: 40px;
+}
+
+.weapon-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+}
+
+.weapon-box button {
+  font-size: 50px;
+  background: none;
+  border: none;
+  padding: 15px;
+}
+
+.weapon-box button :hover {
+  position: relative;
+  border-radius: 50%;
+  background-color: #08356b;
+  transform: scale(1.2);
+}
